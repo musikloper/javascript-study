@@ -5,7 +5,7 @@ $(document).ready(function () {
     // 작성하기
     const id = $('#id').val()
     console.log(id)
-a
+
     $.post("/idcheck", {
       id : id
     })
